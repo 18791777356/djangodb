@@ -1,0 +1,45 @@
+<html>
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <style>
+    body  {font-family: arial; color: #444444; font-size: 12px; background-color:#ffffcc}
+    </style>
+
+    <script>
+    function show_status()
+    {
+        var x = document.getElementById("status").style;
+        var b = document.body;
+        
+    	x.left = (b.clientWidth - x.pixelWidth) / 2;
+    	x.top = (b.clientHeight - x.pixelHeight) / 2;
+        x.visibility = "visible"; 
+    }
+    
+    function hide_status()
+    {
+        document.getElementById("status").style.visibility = "hidden";
+    }
+    </script>
+</head>
+<body scroll=no topmargin="2" leftmargin="2">
+
+<div id='status' style='position:absolute; width: 250px; height: 30px; visibility: hidden; color=red; border-width:1; border-style:solid; border-color:red; padding:3; background-color:#ffffff'>
+&nbsp;<img src='wait.gif' align=absmiddle><b>&nbsp;&nbsp; Connecting to Register Server ...&nbsp;</b></div>
+
+PowerCam 每一套序号可以上网注册两次，并提供两种注册模式，说明如下: <p>
+
+<b>[Internet]</b> <br>
+若您的电脑可以连上网际网路 (Internet)，请输入软体序号后点选下方 Internet 按钮，即可完成注册并传回相关资讯 (如公司名称、剩余次数)。 <p>
+
+<b>[Verified Code]</b><br>
+当您的电脑无法连上网路注册，请依下列步骤注册: <br>
+&nbsp; &nbsp; 1. 将检查码纪录 <br>
+&nbsp; &nbsp; 2. 找可以上网的电脑，连上 http://register.powercam.com.tw/getkey.php <br>
+&nbsp; &nbsp; 3. 输入序号、检查码，确定后会得到ㄧ个认证码。 <br>
+&nbsp; &nbsp; 4. 点选 Verified Code 按钮，输入认证码即可完成注册。 <p>
+
+若有任何的疑问，请与台湾数位学习科技联系 (http://www.powercam.com.tw)。
+
+</body>
+</html>
